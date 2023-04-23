@@ -1,0 +1,11 @@
+{% extends 'body.html' %}
+{% block title %}
+Курс Белагропромбанка
+{% endblock %}
+
+{% block content %}
+<h1>Курсы валют Белагропромбанк</h1>
+    {% for line in result %}
+      <p>{{ line }}</p>
+    {% endfor %}
+{% endblock %}

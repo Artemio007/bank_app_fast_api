@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', path='css/css_body.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', path='css/table_css.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', path='css/css_calc.css') }}">
+  <title>{% block title %}{% endblock %}</title>
+</head>
+
+<body>
+
+<div class="topnav" >
+  <a href="/nb_rb">Курс нацбанка</a>
+  <a href="/belapb">Белагропромбанк</a>
+  <a href="/alpha">Альфабанк</a>
+  <a href="/belarusbank">Беларусбанк</a>
+  <a href="https://t.me/helper_tedt_bot">Оповещения в ТГ</a>
+  <a href="/regist">Регистрация</a>
+  <a href="https://t.me/helper_tedt_bot">Авторизация</a>
+  <div style="padding-left:16px">
+</div>
+</div>
+
+
+
+{% block content %}
+  {% endblock %}
+
+</body>
+</html>

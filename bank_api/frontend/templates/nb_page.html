@@ -1,0 +1,28 @@
+{% extends 'body.html' %}
+{% block title %}
+Курс нацбанка
+
+{% endblock %}
+
+{% block content %}
+<div class="block">
+    <h1>Курсы валют по нацбанку РБ</h1>
+        {% for line in result %}
+          <p>{{ line }}</p>
+        {% endfor %}
+    </div>
+
+<div class="block" id="table">
+    <table class="iksweb">
+        <tbody>
+            {% for line in table_res %}
+            <tr>
+                <td>{{line}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+            </table>
+</div>
+
+
+{% endblock %}

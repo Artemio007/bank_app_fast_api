@@ -1,0 +1,719 @@
+<!--        <table class="iksweb">-->
+<!--            <tbody>-->
+<!--            {% for line in table_res %}-->
+<!--            <tr>-->
+<!--                <td>{{line}}</td>-->
+<!--            </tr>-->
+<!--            {% endfor %}-->
+<!--            </tbody>-->
+
+<!--        </table>-->
+        <!--        <a class="button" href="http://example.com" target="_blank">Перейти на сайт</a>-->
+
+
+<div class="converter-container__content">
+    <div class="converter-container__inputs">
+        <div class="converter-container__item" data-curr="cbrfrub">
+            <div class="record vis_cbrfrub">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> RUB </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_rub"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="100"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfrub"
+                        style="display: none"></span></div>
+                <div class="converter-container__item-currency-name"> российский рубль</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfcny">
+            <div class="record vis_cbrfcny" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> CNY </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_cny"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="9.1495"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfcny" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> китайский юань</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfgbp">
+            <div class="record vis_cbrfgbp" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> GBP </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_gbp"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="1.0938"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfgbp" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> фунт стерлингов</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfaud">
+            <div class="record vis_cbrfaud" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> AUD </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_aud"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="2.0002"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfaud" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> австралийский доллар</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfazn">
+            <div class="record vis_cbrfazn" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> AZN </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_azn"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="2.2609"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfazn" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> азербайджанский манат</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfamd">
+            <div class="record vis_cbrfamd" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> AMD </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_amd"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="517.0577"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfamd" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> армянский драм</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfbyn">
+            <div class="record vis_cbrfbyn">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> BYN </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_byn"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="3.7621"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfbyn"
+                        style="display: none"></span></div>
+                <div class="converter-container__item-currency-name"> белорусский рубль</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfbgn">
+            <div class="record vis_cbrfbgn" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> BGN </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_bgn"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="2.4296"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfbgn" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> болгарский лев</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfbrl">
+            <div class="record vis_cbrfbrl" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> BRL </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_brl"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="6.9683"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfbrl" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> бразильский реал</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfhuf">
+            <div class="record vis_cbrfhuf" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> HUF </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_huf"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="489.9679"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfhuf" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> венгерский форинт</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfkrw">
+            <div class="record vis_cbrfkrw" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> KRW </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_krw"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="1 743.6488"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfkrw" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> вон республики корея</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfvnd">
+            <div class="record vis_cbrfvnd" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> VND </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_vnd"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="31 407.0352"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfvnd" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"></div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfhkd">
+            <div class="record vis_cbrfhkd" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> HKD </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_hkd"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="10.4172"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfhkd" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> гонконгский доллар</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfgel">
+            <div class="record vis_cbrfgel" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> GEL </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_gel"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="3.4442"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfgel" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"></div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfdkk">
+            <div class="record vis_cbrfdkk" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> DKK </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_dkk"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="9.2476"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfdkk" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> датская крона</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfaed">
+            <div class="record vis_cbrfaed" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> AED </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_aed"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="4.8845"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfaed" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"></div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfusd">
+            <div class="record vis_cbrfusd">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> USD </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_usd"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="1.3299"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfusd"
+                        style="display: none"></span></div>
+                <div class="converter-container__item-currency-name"> доллар США</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfeur">
+            <div class="record vis_cbrfeur">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> EUR </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_eur"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="1.2419"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfeur"
+                        style="display: none"></span></div>
+                <div class="converter-container__item-currency-name"> евро</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfegp">
+            <div class="record vis_cbrfegp" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> EGP </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_egp"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="41.077"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfegp" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"></div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfinr">
+            <div class="record vis_cbrfinr" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> INR </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_inr"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="108.7137"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfinr" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> индийская рупия</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfidr">
+            <div class="record vis_cbrfidr" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> IDR </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_idr"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="20 445.7166"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfidr" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"></div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfkzt">
+            <div class="record vis_cbrfkzt" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> KZT </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_kzt"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="607.3194"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfkzt" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> казахстанский тенге</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfcad">
+            <div class="record vis_cbrfcad" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> CAD </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_cad"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="1.826"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfcad" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> канадский доллар</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfqar">
+            <div class="record vis_cbrfqar" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> QAR </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_qar"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="4.8409"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfqar" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"></div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfkgs">
+            <div class="record vis_cbrfkgs" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> KGS </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_kgs"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="116.2611"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfkgs" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> киргизский сом</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfmdl">
+            <div class="record vis_cbrfmdl" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> MDL </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_mdl"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="24.9418"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfmdl" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> молдавский лей</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfnzd">
+            <div class="record vis_cbrfnzd" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> NZD </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_nzd"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="2.1398"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfnzd" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"></div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfron">
+            <div class="record vis_cbrfron" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> RON </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_ron"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="6.1143"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfron" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> новый румынский лей</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrftmt">
+            <div class="record vis_cbrftmt" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> TMT </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_tmt"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="4.6547"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrftmt" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> новый туркменский манат</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfnok">
+            <div class="record vis_cbrfnok" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> NOK </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_nok"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="14.0684"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfnok" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> норвежская крона</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfpln">
+            <div class="record vis_cbrfpln">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> PLN </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_pln"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="5.7958"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfpln"
+                        style="display: none"></span></div>
+                <div class="converter-container__item-currency-name"> польский злотый</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfxdr">
+            <div class="record vis_cbrfxdr" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> XDR </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_xdr"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="0.9956"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfxdr" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> СДР (специальные права заимствования)</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfrsd">
+            <div class="record vis_cbrfrsd" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> RSD </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_rsd"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="145.6588"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfrsd" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"></div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfsgd">
+            <div class="record vis_cbrfsgd" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> SGD </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_sgd"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="1.7927"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfsgd" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> сингапурский доллар</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrftjs">
+            <div class="record vis_cbrftjs" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> TJS </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_tjs"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="14.5143"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrftjs" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> таджикский сомони</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfthb">
+            <div class="record vis_cbrfthb" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> THB </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_thb"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="45.9069"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfthb" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"></div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrftry">
+            <div class="record vis_cbrftry" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> TRY </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_try"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="25.2239"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrftry" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> турецкая лира</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfuzs">
+            <div class="record vis_cbrfuzs" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> UZS </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_uzs"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="15 188.3354"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfuzs" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> узбекский сум</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfuah">
+            <div class="record vis_cbrfuah">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> UAH </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_uah"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="49.1381"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfuah"
+                        style="display: none"></span></div>
+                <div class="converter-container__item-currency-name"> украинская гривна</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfczk">
+            <div class="record vis_cbrfczk" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> CZK </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_czk"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="29.4962"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfczk" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> чешская крона</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfsek">
+            <div class="record vis_cbrfsek" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> SEK </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_sek"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="14.1205"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfsek" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> шведская крона</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfchf">
+            <div class="record vis_cbrfchf" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> CHF </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_chf"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="1.2124"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfchf" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> швейцарский франк</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfzar">
+            <div class="record vis_cbrfzar" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> ZAR </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_zar"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="24.2114"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfzar" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> южноафриканский рэнд</div>
+            </div>
+        </div>
+        <div class="converter-container__item" data-curr="cbrfjpy">
+            <div class="record vis_cbrfjpy" style="display: none">
+                <div class="converter-container__item-input-wrapper"><span
+                        class="converter-container__item-currency-abbr"> JPY </span><input type="tel"
+                                                                                           inputmode="decimal"
+                                                                                           id="cbrf_jpy"
+                                                                                           class="input_calc form-control form-input-sum cbrf"
+                                                                                           value="176.9454"><span
+                        class="converter-container__item-delete" data-js="hide-item" data-del="cbrfjpy" style=""></span>
+                </div>
+                <div class="converter-container__item-currency-name"> японская иена</div>
+            </div>
+        </div>
+    </div>
+    <div class="converter-container__select converter-container__select--kostyl mt-20">
+        <div data-js="selectric-container"
+             class="selectric-container selectric-container--like-link selectric-container--icon-plus">
+            <div class="selectric-wrapper selectric-selectValute">
+                <div class="selectric-hide-select"><select class="selectValute" name="cbrf" tabindex="-1">
+                    <option value="cbrfcny">CNY китайский юань</option>
+                    <option value="cbrfgbp">GBP фунт стерлингов</option>
+                    <option value="cbrfaud">AUD австралийский доллар</option>
+                    <option value="cbrfazn">AZN азербайджанский манат</option>
+                    <option value="cbrfamd">AMD армянский драм</option>
+                    <option value="cbrfbgn">BGN болгарский лев</option>
+                    <option value="cbrfbrl">BRL бразильский реал</option>
+                    <option value="cbrfhuf">HUF венгерский форинт</option>
+                    <option value="cbrfkrw">KRW вон республики корея</option>
+                    <option value="cbrfvnd">VND</option>
+                    <option value="cbrfhkd">HKD гонконгский доллар</option>
+                    <option value="cbrfgel">GEL</option>
+                    <option value="cbrfdkk">DKK датская крона</option>
+                    <option value="cbrfaed">AED</option>
+                    <option value="cbrfegp">EGP</option>
+                    <option value="cbrfinr">INR индийская рупия</option>
+                    <option value="cbrfidr">IDR</option>
+                    <option value="cbrfkzt">KZT казахстанский тенге</option>
+                    <option value="cbrfcad">CAD канадский доллар</option>
+                    <option value="cbrfqar">QAR</option>
+                    <option value="cbrfkgs">KGS киргизский сом</option>
+                    <option value="cbrfmdl">MDL молдавский лей</option>
+                    <option value="cbrfnzd">NZD</option>
+                    <option value="cbrfron">RON новый румынский лей</option>
+                    <option value="cbrftmt">TMT новый туркменский манат</option>
+                    <option value="cbrfnok">NOK норвежская крона</option>
+                    <option value="cbrfxdr">XDR СДР (специальные права заимствования)</option>
+                    <option value="cbrfrsd">RSD</option>
+                    <option value="cbrfsgd">SGD сингапурский доллар</option>
+                    <option value="cbrftjs">TJS таджикский сомони</option>
+                    <option value="cbrfthb">THB</option>
+                    <option value="cbrftry">TRY турецкая лира</option>
+                    <option value="cbrfuzs">UZS узбекский сум</option>
+                    <option value="cbrfczk">CZK чешская крона</option>
+                    <option value="cbrfsek">SEK шведская крона</option>
+                    <option value="cbrfchf">CHF швейцарский франк</option>
+                    <option value="cbrfzar">ZAR южноафриканский рэнд</option>
+                    <option value="cbrfjpy">JPY японская иена</option>
+                </select></div>
+                <div class="selectric"><span class="label">Добавить валюту</span></div>
+                <div class="selectric-items" tabindex="-1">
+                    <div class="selectric-scroll">
+                        <ul>
+                            <li data-index="0" class="selected"><span class="cbrfcny"><span class="bold">CNY</span>  китайский юань</span>
+                            </li>
+                            <li data-index="1" class=""><span class="cbrfgbp"><span class="bold">GBP</span>  фунт стерлингов</span>
+                            </li>
+                            <li data-index="2" class=""><span class="cbrfaud"><span class="bold">AUD</span>  австралийский доллар</span>
+                            </li>
+                            <li data-index="3" class=""><span class="cbrfazn"><span class="bold">AZN</span>  азербайджанский манат</span>
+                            </li>
+                            <li data-index="4" class=""><span class="cbrfamd"><span class="bold">AMD</span>  армянский драм</span>
+                            </li>
+                            <li data-index="5" class=""><span class="cbrfbgn"><span class="bold">BGN</span>  болгарский лев</span>
+                            </li>
+                            <li data-index="6" class=""><span class="cbrfbrl"><span class="bold">BRL</span>  бразильский реал</span>
+                            </li>
+                            <li data-index="7" class=""><span class="cbrfhuf"><span class="bold">HUF</span>  венгерский форинт</span>
+                            </li>
+                            <li data-index="8" class=""><span class="cbrfkrw"><span class="bold">KRW</span>  вон республики корея</span>
+                            </li>
+                            <li data-index="9" class=""><span class="cbrfvnd"><span class="bold">VND</span>  </span>
+                            </li>
+                            <li data-index="10" class=""><span class="cbrfhkd"><span class="bold">HKD</span>  гонконгский доллар</span>
+                            </li>
+                            <li data-index="11" class=""><span class="cbrfgel"><span class="bold">GEL</span>  </span>
+                            </li>
+                            <li data-index="12" class=""><span class="cbrfdkk"><span class="bold">DKK</span>  датская крона</span>
+                            </li>
+                            <li data-index="13" class=""><span class="cbrfaed"><span class="bold">AED</span>  </span>
+                            </li>
+                            <li data-index="14" class=""><span class="cbrfegp"><span class="bold">EGP</span>  </span>
+                            </li>
+                            <li data-index="15" class=""><span class="cbrfinr"><span class="bold">INR</span>  индийская рупия</span>
+                            </li>
+                            <li data-index="16" class=""><span class="cbrfidr"><span class="bold">IDR</span>  </span>
+                            </li>
+                            <li data-index="17" class=""><span class="cbrfkzt"><span class="bold">KZT</span>  казахстанский тенге</span>
+                            </li>
+                            <li data-index="18" class=""><span class="cbrfcad"><span class="bold">CAD</span>  канадский доллар</span>
+                            </li>
+                            <li data-index="19" class=""><span class="cbrfqar"><span class="bold">QAR</span>  </span>
+                            </li>
+                            <li data-index="20" class=""><span class="cbrfkgs"><span class="bold">KGS</span>  киргизский сом</span>
+                            </li>
+                            <li data-index="21" class=""><span class="cbrfmdl"><span class="bold">MDL</span>  молдавский лей</span>
+                            </li>
+                            <li data-index="22" class=""><span class="cbrfnzd"><span class="bold">NZD</span>  </span>
+                            </li>
+                            <li data-index="23" class=""><span class="cbrfron"><span class="bold">RON</span>  новый румынский лей</span>
+                            </li>
+                            <li data-index="24" class=""><span class="cbrftmt"><span class="bold">TMT</span>  новый туркменский манат</span>
+                            </li>
+                            <li data-index="25" class=""><span class="cbrfnok"><span class="bold">NOK</span>  норвежская крона</span>
+                            </li>
+                            <li data-index="26" class=""><span class="cbrfxdr"><span class="bold">XDR</span>  СДР (специальные права заимствования)</span>
+                            </li>
+                            <li data-index="27" class=""><span class="cbrfrsd"><span class="bold">RSD</span>  </span>
+                            </li>
+                            <li data-index="28" class=""><span class="cbrfsgd"><span class="bold">SGD</span>  сингапурский доллар</span>
+                            </li>
+                            <li data-index="29" class=""><span class="cbrftjs"><span class="bold">TJS</span>  таджикский сомони</span>
+                            </li>
+                            <li data-index="30" class=""><span class="cbrfthb"><span class="bold">THB</span>  </span>
+                            </li>
+                            <li data-index="31" class=""><span class="cbrftry"><span class="bold">TRY</span>  турецкая лира</span>
+                            </li>
+                            <li data-index="32" class=""><span class="cbrfuzs"><span class="bold">UZS</span>  узбекский сум</span>
+                            </li>
+                            <li data-index="33" class=""><span class="cbrfczk"><span class="bold">CZK</span>  чешская крона</span>
+                            </li>
+                            <li data-index="34" class=""><span class="cbrfsek"><span class="bold">SEK</span>  шведская крона</span>
+                            </li>
+                            <li data-index="35" class=""><span class="cbrfchf"><span class="bold">CHF</span>  швейцарский франк</span>
+                            </li>
+                            <li data-index="36" class=""><span class="cbrfzar"><span class="bold">ZAR</span>  южноафриканский рэнд</span>
+                            </li>
+                            <li data-index="37" class="last"><span class="cbrfjpy"><span class="bold">JPY</span>  японская иена</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <input class="selectric-input" tabindex="0"></div>
+        </div>
+    </div>
+</div>
